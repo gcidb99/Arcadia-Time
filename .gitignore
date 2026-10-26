@@ -1,0 +1,59 @@
+# Arcadia Time - .gitignore para Unity 6 (Windows)
+
+# Carpetas generadas por Unity (se regeneran solas)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Los .meta de los assets SI se suben (guardan referencias y ajustes)
+!/[Aa]ssets/**/*.meta
+
+# Caches de editores e IDEs
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# Archivos de solucion y proyecto autogenerados
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta de archivos generados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Informes de fallos
+sysinfo.txt
+
+# Compilaciones y paquetes
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Basura del sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
